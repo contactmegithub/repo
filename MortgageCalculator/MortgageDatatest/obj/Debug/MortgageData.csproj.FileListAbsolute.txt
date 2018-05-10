@@ -1,0 +1,5 @@
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageDatatest\bin\Debug\MortgageData.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageDatatest\bin\Debug\MortgageData.pdb
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageDatatest\obj\Debug\MortgageData.csprojResolveAssemblyReference.cache
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageDatatest\obj\Debug\MortgageData.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageDatatest\obj\Debug\MortgageData.pdb

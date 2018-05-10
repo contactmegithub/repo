@@ -1,0 +1,139 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Mortgage Calculator</h1>
+    <p class="lead">
+        The Mortgage Calculator helps you:
+        <ul class="nav nav-bar">
+            <li class="active"><a data-toggle="tab" id="activeMortgageLink" href="#activeMortgage">Choose the right loan for you</a></li>
+            <li><a data-toggle="tab" id="MortageCalculatorLink" href="#MortageCalculator">The Interests and Repayment on your loan</a></li>
+        </ul>
+    </p>
+</div>
+
+<div class="row" style="display: none">
+    <div class="col-md-12">
+        <form class="form-horizontal">
+            <fieldset>
+
+                <!-- Form Name -->
+                <legend>Calculator</legend>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Borrowed Amount</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="0.00" class="form-control input-md" required="">
+                        <span class="help-block">Enter the amount to borrow</span>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+
+<div id="activeMortgage" class="tab-pane fade in active" style="display: none">
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#activeMortgageClient">Client Side Shorting</a></li>
+        <li><a data-toggle="tab" href="#activeMortgageServer">Server Side Shorting</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="activeMortgageClient" class="tab-pane fade in active">
+        </div>
+        <div id="activeMortgageServer" class="tab-pane fade">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 form-group">
+                        <div class="col-lg-10">
+                            <div class="col-lg-6">
+                                <div class="col-lg-8">
+                                    <label for="shortby">Short By:</label>
+                                    <select id="shortby" class="form-control">
+                                        <option value="0" selected="selected">-Select-</option>
+                                        <option value="1">Name</option>
+                                        <option value="2">Interest Rate</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4">
+                                    <label for="shortbyOrder">Order</label>
+                                    <select id="shortbyOrder" class="form-control">
+                                        <option value="0" selected="selected">-Select-</option>
+                                        <option value="1">Asc</option>
+                                        <option value="2">Desc</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="col-lg-8">
+                                    <label for="thenshortby">Short By:</label>
+                                    <select id="thenshortby" class="form-control">
+                                        <option value="0" selected="selected">-Select-</option>
+                                        <option value="1">Name</option>
+                                        <option value="2">Interest Rate</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4">
+                                    <label for="thenshortbyOrder">Order</label>
+                                    <select id="thenshortbyOrder" class="form-control">
+                                        <option value="0" selected="selected">-Select-</option>
+                                        <option value="1">Asc</option>
+                                        <option value="2">Desc</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-1">
+                            <input type="button" id="doShorting" name="name" value="Short" class="btn btn-primary" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="activeMortgageServerbind"></div>
+        </div>
+    </div>
+</div>
+<div id="MortageCalculator" class="tab-pane fade" style="display: none">
+    <legend>Calculator</legend>
+    <div class="container">
+        <div class="form-horizontal">
+            <div class="row" id="evtFromActiveMortgage">
+                <label id="lblMortgageType"></label>
+                <p>*Note:
+                    <ol>
+                        <li>Premimum per month : Leave this feild with default input zero inorder to workout with least possible premium amount</li>
+                    </ol>
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-lg-3">
+                        <label for="principleAmt">Principle amount</label>
+                        <input type="number" placeholder="Principle amount" id="principleAmt" class="form-control input-md" value="" />
+                    </div>
+                    <div class="col-lg-3">
+                        <label for="rateOfIntrest">Interest rate per anum</label>
+                        <input type="number" placeholder="Interest rate per anum" id="rateOfIntrest" class="form-control input-md" value="" />
+                    </div>
+                    <div class="col-lg-3">
+                        <label for="termsInyears">Numbr of years</label>
+                        <input type="number" placeholder="Numbr of years" id="termsInyears" class="form-control input-md" value="" />
+                    </div>
+                    <div class="col-lg-3">
+                        <label for="dpmt">Premimum per month</label>
+                        <input type="number" placeholder="Premimum per month" id="dpmt" class="form-control input-md" value="0" />
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin: 5px">
+                <input type="submit" id="btnMortgageCalculator" value="Calculate" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+    <div id="MortgageCalculatorContent"></div>
+</div>

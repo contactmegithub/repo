@@ -1,0 +1,73 @@
+﻿@model MortgageCalculator.Web.Models.Result
+
+ <div class="emi-calculator-section" style="margin-top:20px">
+    <div style="text-align:center;border:double 2px solid;margin:5px">
+<div class="col-lg-6">
+<label>Total repayment over the lifetime of the loan : <span style="font-size: 20px;"><img src="../img/rupee-icon-black.png" alt="Rupee image"> @(Model.TotalRepayment)</span> </label>
+</div>
+<div class="col-lg-6">
+<label>
+<label>Amount paid in interest over the life of the loan : <span style="font-size: 20px;"><img src="../img/rupee-icon-black.png" alt="Rupee image"> @(Model.TotalIntrestPaid)</span> </label>
+</label>
+</div>
+    </div>
+
+     <div class="mortgageization-table">
+         <div class="mortgageization-table-wrap">
+             <div class="container">
+                 <div class="mortgageization-table-inner" id="mortgageization-table-inner" style="display: block;">
+                     <table class="table table-responsive table-hover" id="mortgageTable">
+                         <thead>
+                             <tr>
+                                 <th class="year">Year</th>
+                                 <th class="principal">Principal Paid(A)</th>
+                                 <th class="interest">Interest Paid(B)</th>
+                                 <th class="total-payment">Total Payment (A+B)</th>
+                                 <th class="balance">Outstanding Loan Balance</th>
+                             </tr>
+                         </thead>
+                         <tfoot>
+                             <tr>
+                                 <th class="year">Year</th>
+                                 <th class="principal">Principal Paid(A)</th>
+                                 <th class="interest">Interest Paid(B)</th>
+                                 <th class="total-payment">Total Payment (A+B)</th>
+                                 <th class="balance">Outstanding Loan Balance</th>
+                             </tr>
+                         </tfoot>
+                         <tbody>
+                             @foreach (var item in Model.YResult){
+                             <tr class="clickable mortgage-table collapsed" data-toggle="collapse" id="@(item.Year)" data-target=".@(item.Year)">
+                                 <td><i class="glyphicon glyphicon-plus"></i>@(item.Year)</td>
+                                 <td>
+                                     <img src="../img/rupee-icon-black.png" alt="Rupee image">@(item.PrincipalPaid)</td>
+                                 <td>
+                                     <img src="../img/rupee-icon-black.png" alt="Rupee image">@(item.InterestPaid)</td>
+                                 <td>
+                                     <img src="../img/rupee-icon-black.png" alt="Rupee image">@(item.PrincipalPaid+item.InterestPaid)</td>
+                                 <td>
+                                     <img src="../img/rupee-icon-black.png" alt="Rupee image">@(item.OutstandingLoanBalance)</td>
+                             </tr>
+                             foreach (var mitem in item.MResult){
+                             <tr class="@(item.Year) collapse" style="height: 0px;">
+                                 <td>@(mitem.CurrentMonth)</td>
+                                 <td>
+                                     <img src="../img/rupee-icon-black.png" alt="Rupee image">@(mitem.PrincipalPaid)</td>
+                                 <td>
+                                     <img src="../img/rupee-icon-black.png" alt="Rupee image">@(mitem.InterestPaid)</td>
+                                 <td>
+                                     <img src="../img/rupee-icon-black.png" alt="Rupee image">@(mitem.PrincipalPaid+mitem.InterestPaid)</td>
+                                 <td>
+                                     <img src="../img/rupee-icon-black.png" alt="Rupee image">@(mitem.OutstandingLoanBalance)</td>
+                             </tr>
+                             }
+                             }
+                         </tbody>
+                     </table>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+

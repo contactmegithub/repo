@@ -1,0 +1,96 @@
+﻿@model MortgageCalculator.Web.Models.ListMortgage
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Active Mortgages</h1>
+    @*<p class="lead">
+        The Mortgage Calculator helps you:
+        <ul>
+            <li>Choose the right loan for you</li>
+            <li>The Interests and Repayment on your loan</li>
+        </ul>
+    </p>
+    *@
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <form class="form-horizontal">
+            <fieldset>
+                <div class="continer">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="shortBy">Short by</label>
+                            <select id="shortBy" class="form-control">
+                                <option value="0">--Select--</option>
+                                <option value="1">MortgageType</option>
+                                <option value="2">Intrest Rate</option>
+                            </select>
+                            <label for="shortThenBy">Then by</label>
+                            <select id="shortThenBy" class="form-control">
+                                <option value="0">--Select--</option>
+                                <option value="1">MortgageType</option>
+                                <option value="2">Intrest Rate</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Name -->
+                @*<legend>Active Mortgage</legend>*@
+
+                <!-- Text input-->
+                @*
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Borrowed Amount</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="0.00" class="form-control input-md" required="">
+                        <span class="help-block">Enter the amount to borrow</span>
+                    </div>
+                </div>
+                *@
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Mortgage Id</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">MortgageType</th>
+                            <th scope="col">InterestRate</th>
+                            <th scope="col">InterestRepayment</th>
+                            <th scope="col">EffectiveStartDate</th>
+                            <th scope="col">EffectiveEndDate</th>
+                            <th scope="col">TermsInMonths</th>
+                            <th scope="col">CancellationFee</th>
+                            <th scope="col">EstablishmentFee</th>
+                            @*<th scope="col">SchemaIdentifier</th>
+                            *@
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model._Mortgage)
+{
+                        <tr>
+                            <th scope="row">@item.MortgageId</th>
+                            <td>@item.Name</td>
+                            <td>@item.MortgageType</td>
+                            @*<td>@item.InterestRate</td>*@
+                            <td>@item.InterestRepayment</td>
+                            <td>@item.EffectiveStartDate</td>
+                            <td>@item.EffectiveEndDate</td>
+                            <td>@item.TermsInMonths</td>
+                            <td>@item.CancellationFee</td>
+                            <td>@item.EstablishmentFee</td>
+                            @*<td>@item.SchemaIdentifier</td>
+                            *@
+                        </tr>
+
+                        }
+                    </tbody>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</div>

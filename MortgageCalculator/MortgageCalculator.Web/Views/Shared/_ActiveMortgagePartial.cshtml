@@ -1,0 +1,59 @@
+﻿@model IEnumerable<MortgageCalculator.Web.Models.Mortgage>
+
+<table id="activemortgagetable" class="display">
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Interest Rate</th>
+        <th>Effective Start Date</th>
+        <th>Effective End Date</th>
+        <th>Terms In Months</th>
+        <th>Cancellation Fee</th>
+        <th>Establishment Fee</th>
+        <th>SchemaIdentifier</th>
+    </tr>
+</thead>
+<tbody >
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InterestRate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EffectiveStartDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EffectiveEndDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TermsInMonths)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CancellationFee)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstablishmentFee)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SchemaIdentifier)
+        </td>
+       
+    </tr>
+}
+</tbody>
+<tfoot>
+    <tr>
+        <th>Name</th>
+        <th>Interest Rate</th>
+        <th>Effective Start Date</th>
+        <th>Effective End Date</th>
+        <th>Terms In Months</th>
+        <th>Cancellation Fee</th>
+        <th>Establishment Fee</th>
+        <th>SchemaIdentifier</th>
+    </tr>
+</tfoot>
+</table>

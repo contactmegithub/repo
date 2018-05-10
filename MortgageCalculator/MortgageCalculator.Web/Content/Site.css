@@ -1,0 +1,169 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar-brand {
+    float: initial;
+}
+
+.table {
+    font-size: 16px;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+body {
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    background-color: #fff;
+}
+
+table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 9px 25px;
+    line-height: 1.231;
+    border-top: 2px solid #eef0f0;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table .collapse.in {
+    display: table-row;
+}
+
+#mortgageization-table-inner {
+    display: none;
+}
+
+.mortgageization-table-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+    .mortgageization-table-inner table, .mortgageization-table-inner table th {
+        font-weight: lighter;
+    }
+
+    .mortgageization-table-inner .table tr:hover, .mortgageization-table-inner .table-hover > tbody > tr:hover > td, .mortgageization-table-inner .table-hover > tbody > tr:hover > th {
+        background-color: #fff !important;
+    }
+
+.table > thead > tr > th {
+    border: 0 !important;
+}
+
+.mortgageization-table-inner .table th {
+    color: #fff;
+    text-align: center;
+    width: 20%;
+}
+
+.mortgageization-table-inner .table td {
+    color: #000;
+    border: 1px solid #eef0f0 !important;
+}
+
+    .mortgageization-table-inner .table td img {
+        margin-top: 2px;
+        width: 8px;
+        vertical-align: baseline;
+    }
+
+.mortgageization-table-inner .table tr {
+    background: #fff;
+}
+
+    .mortgageization-table-inner .table tr.collapse {
+        background: #f5f5f5;
+    }
+
+.mortgageization-table-inner table th.year, .mortgageization-table-inner table th.total-payment {
+    background: #ccc;
+    color: #000;
+}
+
+.mortgageization-table-inner table th.principal {
+    background: #f2a334;
+}
+
+.mortgageization-table-inner table th.interest {
+    background: #03c8a5;
+}
+
+.mortgageization-table-inner table th.total-payment {
+    background: #ccc;
+}
+
+.mortgageization-table-inner table th.balance {
+    background: #f33;
+}
+
+
+.mortgageization-color-info .outer-span {
+    margin-right: 25px;
+}
+
+.mortgageization-color-info {
+    font-size: 14px;
+}
+
+    .mortgageization-color-info .arange-squre, .mortgageization-color-info .green-squre, .mortgageization-color-info .red-squre, .mortgageization-color-info .gray-squre, .mortgageization-color-info .purple-squre {
+        margin-right: 5px;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #fff;
+        vertical-align: inherit;
+    }
+
+.mortgageization-table-inner .glyphicon-plus:before, .mortgageization-table-inner .glyphicon-minus:before {
+    background: #38acc9;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: lighter;
+    padding: 2px 4px;
+    float: left;
+    position: relative;
+    left: -20px;
+    cursor: pointer;
+}
+
+.mortgageization-table-inner .glyphicon-minus:before {
+    content: "−";
+}
+
+.mortgageization-table-inner .glyphicon-plus:before {
+    content: "+";
+}
+
+.mortgageization-table {
+    color: #fff;
+    text-align: center;
+    padding: 0;
+}

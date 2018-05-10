@@ -1,0 +1,58 @@
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\obj\Debug\MortgageCalculator.Api.csprojResolveAssemblyReference.cache
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\obj\Debug\MortgageCalculator.Api.csproj.CoreCompileInputs.cache
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\ApplicationInsights.config
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\MortgageCalculator.Api.dll.config
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\MortgageCalculator.Api.dll
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\MortgageCalculator.Api.pdb
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\Newtonsoft.Json.dll
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\System.Net.Http.Formatting.dll
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Http.dll
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Http.WebHost.dll
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\Newtonsoft.Json.xml
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\System.Net.Http.Formatting.xml
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Http.xml
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Http.WebHost.xml
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\obj\Debug\MortgageCalculator.Api.dll
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\obj\Debug\MortgageCalculator.Api.pdb
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\MortgageCalculator.Dto.dll
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\MortgageData.dll
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\MortgageCalculator.Dto.pdb
+D:\Projects\MortgageCalculator\MortgageCalculator.Api\bin\MortgageData.pdb
+D:\DataAshMoollan\Recruitment\ASP Coding Test\MortgageCalculator\MortgageCalculator.Api\obj\Debug\MortgageCalculator.Api.csprojResolveAssemblyReference.cache
+D:\DataAshMoollan\Recruitment\ASP Coding Test\MortgageCalculator\MortgageCalculator.Api\obj\Debug\MortgageCalculator.Api.csproj.CoreCompileInputs.cache
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\obj\Debug\MortgageCalculator.Api.csprojResolveAssemblyReference.cache
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\ApplicationInsights.config
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\MortgageCalculator.Api.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\MortgageCalculator.Api.pdb
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\MortgageCalculator.Dto.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\MortgageData.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\Newtonsoft.Json.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Net.Http.Formatting.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Http.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Http.WebHost.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\MortgageData.pdb
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\MortgageCalculator.Dto.pdb
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\Newtonsoft.Json.xml
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Net.Http.Formatting.xml
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Http.xml
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Http.WebHost.xml
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\obj\Debug\MortgageCalculator.Api.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\obj\Debug\MortgageCalculator.Api.pdb
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Helpers.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Mvc.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Razor.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.WebPages.Deployment.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.WebPages.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.WebPages.Razor.dll
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Helpers.xml
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Mvc.xml
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.Razor.xml
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.WebPages.xml
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.WebPages.Deployment.xml
+C:\Users\James Bond\Documents\Visual Studio 2012\Projects\MortgageCalculator\MortgageCalculator\MortgageCalculator.Api\bin\System.Web.WebPages.Razor.xml
